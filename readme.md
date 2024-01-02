@@ -16,12 +16,12 @@ Required NodeJS >= 18
 #### [DangerJS](https://danger.systems/js/)
 
 - [Danger File](https://danger.systems/js/guides/the_dangerfile) to setup the rules
-- Open comment in PR/MR 
+- Open comment in PR/MR
 - Have a token to acess the repo and write the comment
 - Rules to open PR/MR, like description message
-- *On docs doesn`t show how to setup CI with Azure*
+- _On docs doesn`t show how to setup CI with Azure_
 
-Example of rules 
+Example of rules
 
 https://github.com/artsy/emission/blob/master/dangerfile.ts
 https://github.com/danger/danger-js/blob/main/dangerfile.ts
