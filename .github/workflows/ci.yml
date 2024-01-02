@@ -18,10 +18,14 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 18.x
+
       - name: Danger
         uses: danger/danger-js@9.1.6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Install dependencies
+        run: npm install
 
       - name: Linting
         run: npm run lint
