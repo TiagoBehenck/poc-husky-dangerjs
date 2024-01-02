@@ -24,9 +24,13 @@ Required NodeJS >= 18
 Example of rules
 
 https://github.com/artsy/emission/blob/master/dangerfile.ts
+
 https://github.com/danger/danger-js/blob/main/dangerfile.ts
+
 https://github.com/bamlab/dev-standards/blob/master/dangerfile.js
+
 https://github.com/facebook/react/blob/main/dangerfile.js
+
 https://github.com/facebook/react-native/blob/main/packages/react-native-bots/dangerfile.js
 
 #### Articles
