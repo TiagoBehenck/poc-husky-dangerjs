@@ -22,3 +22,9 @@ jobs:
         uses: danger/danger-js@9.1.6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Linting
+        run: npm run lint
+      
+      - name: Test
+        run: npm run test:ci
