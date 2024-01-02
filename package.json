@@ -23,8 +23,6 @@
     }
   },
   "lint-staged": {
-    "src/**/*": [
-      "yarn test --findRelatedTests --bail"
-    ]
+    "*": "prettier --write"
   }
 }
