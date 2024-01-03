@@ -1,6 +1,5 @@
-#!/usr/bin/env sh
-npm run script:precommit || {
-  echo
-  echo "husky > scripts de pre-commit falhou"
-  exit 1
-}
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx --no-install lint-staged
+node ./husky/blockJSFile.js
