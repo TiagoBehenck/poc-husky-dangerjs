@@ -1,4 +1,5 @@
-import { execSync } from 'child_process'
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { execSync } = require('child_process')
 
 const blockJSFileCommits = () => {
   const files = execSync('git diff --cached --name-only')
