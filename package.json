@@ -9,7 +9,7 @@
     "lint:fix": "eslint --fix --ext .ts,.tsx .",
     "test": "jest",
     "test:ci": "jest --runInBand",
-    "script:precommit": "node tasks/precommit.ts"
+    "script:precommit": "node tasks/pre-commit.ts"
   },
   "keywords": [],
   "author": "",
