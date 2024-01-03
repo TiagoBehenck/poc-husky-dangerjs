@@ -9,7 +9,7 @@
     "lint:fix": "eslint --fix --ext .ts,.tsx .",
     "test": "jest",
     "test:ci": "jest --runInBand",
-    "script:precommit": "node tasks/pre-commit.ts"
+    "script:precommit": "node tasks/blockJSFile.ts"
   },
   "keywords": [],
   "author": "",
@@ -30,7 +30,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run script:precommit",
+      "pre-commit": "",
       "pre-push": ""
     }
   },

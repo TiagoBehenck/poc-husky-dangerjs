@@ -44,3 +44,10 @@ https://www.youtube.com/watch?v=J2ITov8r0Rs
 https://danger.systems/js/guides/getting_started.html#setting-up-danger-to-run-on-your-ci
 
 https://medium.com/hackernoon/dont-be-the-bad-cop-in-pull-request-reviews-let-software-do-that-job-1eb9e574c2d1
+
+### Print 
+
+
+Print of error on console when try to commit JS file
+
+![Alt text](image.png)
